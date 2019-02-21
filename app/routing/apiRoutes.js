@@ -5,7 +5,7 @@ var friends = require("../data/friends");
 // Routing
 module.exports = function(app) {
     // API GET Requests
-    app.get("/api/freinds", function(req, res) {
+    app.get("/api/friends", function(req, res) {
         res.json(friends);
     });
     // API POST Requests
