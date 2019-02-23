@@ -3,7 +3,7 @@
 var friends = [
     {
         name: "Link",
-        photo: "https://starfriend.ru/10884-large_default/figurka-the-legend-of-zelda-link-9sm.jpg",
+        photo: "/link.png",
         scores: [
             "5",
             "1",
@@ -19,7 +19,7 @@ var friends = [
     },
     {
         name: "Mario",
-        photo: "https://mario.nintendo.com/assets/img/home/fb-mario-pose_2x.png",
+        photo: "/mario.png",
         scores: [
             "4",
             "2",
@@ -35,7 +35,7 @@ var friends = [
     },
     {
         name: "Bowser",
-        photo: "https://cdn-images-1.medium.com/max/1600/1*x2Gw1gKrRQi5WEcBrKYA1g.png",
+        photo: "/bowser.png",
         scores: [
             "5",
             "2",
@@ -51,7 +51,7 @@ var friends = [
     },
     { 
         name: "Snake",
-        photo: "https://i.pinimg.com/originals/14/03/d7/1403d7de1d27194f7381d4e94b04d929.jpg",
+        photo: "/snake.png",
         scores: [
             "3",
             "3",
@@ -66,8 +66,8 @@ var friends = [
         ]
     },
     {
-        name: "Link",
-        photo: "https://fast-anime.ru/thumb/shop/upload/225378.jpg&w=200&h=300&q=95",
+        name: "Lara Croft",
+        photo: "/lara.png",
         scores: [
             "4",
             "3",
@@ -83,7 +83,7 @@ var friends = [
     },
     {
         name: "Steven Ogg",
-        photo: "https://www.gametribute.com/wp-content/uploads/2014/09/Trevor-Grand-Theft-Auto-5.jpg",
+        photo: "/steven.png",
         scores: [
             "4",
             "4",
