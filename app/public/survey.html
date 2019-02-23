@@ -6,23 +6,26 @@
         <title>FriendFinder</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
     </head>
 
-    <body style="background: rgba(0, 0, 0, 0.845)">
+    <body>
 
-        <div class="container" style="border-radius: 10px; border-top: 20px solid rgb(90, 85, 193); border-bottom: 20px solid rgb(90, 85, 193); background: rgba(254, 254, 254, 0.845)">
+        <div class="container">
+            <div class="jumbotron">
 
-            <h2>Survey Questions</h2>
-            <hr>
+            <h2 style="font-size: 45px; margin-top: -20px">Survey Questions</h2>
+            <hr style="box-shadow:  0px 0px 20px 10px rgba(43, 40, 95, 0.509)"> 
 
             <h3><strong>About You</strong></h3>
             <h4>Name (Required)</h4>
@@ -30,8 +33,8 @@
 
             <h4>Link to Photo Image (Required)</h4>
             <input type="text" id="photo" class="form-control" required>
-
-            <hr>
+            <br>
+            <hr style="box-shadow:  0px 0px 20px 10px rgba(43, 40, 95, 0.509)"> 
 
             <h3><strong>Question 1</strong></h3>
             <h4>You do love action and buzzle advanture.</h4>
@@ -43,6 +46,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
 
             <h3><strong>Question 2</strong></h3>
             <h4>Generally, you like to travel alone at least once.</h4>
@@ -54,7 +59,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
-
+            <br>
+            <hr>
 
             <h3><strong>Question 3</strong></h3>
             <h4>You find it easy to spend some times relaxed and focused more than engaging with others.</h4>
@@ -66,7 +72,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
-
+            <br>
+            <hr>
 
             <h3><strong>Question 4</strong></h3>
             <h4>You rarely do something just out of sheer curiosity.</h4>
@@ -78,6 +85,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
 
 
             <h3><strong>Question 5</strong></h3>
@@ -90,6 +99,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
 
 
             <h3><strong>Question 6</strong></h3>
@@ -102,6 +113,8 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
 
 
             <h3><strong>Question 7</strong></h3>
@@ -114,6 +127,9 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
+
 
             <h3><strong>Question 8</strong></h3>
             <h4>Animation movies is better than live action movies.</h4>
@@ -125,6 +141,9 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
+
 
             <h3><strong>Question 9</strong></h3>
             <h4>Sometimes, you feel bored during working hours.</h4>
@@ -136,6 +155,9 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+            <br>
+            <hr>
+
 
             <h3><strong>Question 10</strong></h3>
             <h4>Game of Thrones is one of my favorite tv show.</h4>
@@ -150,19 +172,23 @@
 
             <br>
             <br>
+            <hr style="box-shadow:  0px 0px 20px 10px rgba(43, 40, 95, 0.509)"> 
+            <br>
 
             <!-- Submit Button -->
             <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
             Submit</button>
 
-            <hr>
+        </div>
+
             <footer class="footer">
                 <div class="container">
-                    <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/aalamri143/friendfinder">GitHub Repo</a></p>
+                    <p style="margin-left: 60px"><a href="/api/friends">API Friends List</a> | <a href="https://github.com/aalamri143/friendfinder">GitHub Repo</a></p>
                 </div>
             </footer>
-
+            
         </div>
+        
 
         <!-- Modal -->
         <div id="results-modal" class="modal fade" role="dialog">

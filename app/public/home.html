@@ -5,34 +5,39 @@
         <title>FriendFinder</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- Font Awsome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
 
-    
     </head>
 
-    <body style="background: rgba(0, 0, 0, 0.845)";>
+    <body>
+
         <div class="container">
-            <div class="jumbotron" style="border-top: 20px solid rgb(90, 85, 193); border-bottom: 20px solid rgb(90, 85, 193)";>
-                <h1><i class="far fa-smile-beam" aria-hidden="true"></i> Friend Finder</h1>
-                <hr>
-                <h2>Answer a few basic questions.</h2>
-                <h2>Then find the friend with the greatest compatibility!</h2>
+            <div class="jumbotron">
+
+                <h1 style="margin-bottom: 30px"><i class="far fa-smile-beam" aria-hidden="true"></i> Friend Finder</h1>
+                <hr style="box-shadow:  0px 0px 20px 10px rgba(43, 40, 95, 0.509)">
                 <br>
+                <p style="margin-left: 20px; font-family: 'Times New Roman', Times, serif">Answer a few basic questions.</p>
+                <p style="margin-left: 20px; font-family: 'Times New Roman', Times, serif">Then find the friend with the greatest compatibility!</p>
+                <br>
+                <hr style="box-shadow:  0px 0px 20px 10px rgba(43, 40, 95, 0.509)"> 
+
                 <div>
-                    <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+                    <a href="/survey"><button type="button" class="btn btn-lg btn-primary"  id="buttom"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
                 </div>
             </div>
 
             <footer class="footer">
                 <div class="container">
-                    <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/AAlamri143/FriendFinder">GitHub Repo</a></p>
-                </div>
+                    <p style="margin-left: 60px"><a href="/api/friends">API Friends List</a> | <a href="https://github.com/AAlamri143/FriendFinder">GitHub Repo</a></p>
+                </div> 
             </footer>
         </div>
-    
     </body>
 </html>
