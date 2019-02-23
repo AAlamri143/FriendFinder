@@ -16,14 +16,14 @@ This app was developed to demonstrate a friend matching app using a MySQL / Expr
 
 
 ### Home Page
-![GitHub Logo](/public/home.png)
+![GitHub Logo](public/home.png)
 
 
 ### Survey Page
-![GitHub Logo](/public/survey.png)
+![GitHub Logo](public/survey.png)
 
 ### Best Match
-![GitHub Logo](/public/match.png)
+![GitHub Logo](public/match.png)
 
 
 Thanks!
